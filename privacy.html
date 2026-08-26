@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WorthFlow — Privacy Policy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+<header class="site">
+  <span class="mark" aria-hidden="true">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+      <path d="M2 14.5 L6.5 9 L10.5 11.5 L18 4" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" style="color: var(--accent)"/>
+    </svg>
+  </span>
+  <span class="name">WorthFlow</span>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="support.html">Support</a>
+  </nav>
+</header>
+
+<h1>Privacy Policy</h1>
+<p class="lede">WorthFlow does not collect your data. There is no account, no analytics, and no tracking.</p>
+<p class="meta">Last updated: 26 August 2026</p>
+
+<p>WorthFlow is a personal capital tracker for iPhone, iPad and Mac. It records what you own and
+what it is worth over time. This policy explains exactly what the app does with that information.</p>
+
+<h2>What we collect</h2>
+
+<div class="card">
+<p><strong>Nothing.</strong> The developer of WorthFlow receives no data from the app —
+no personal information, no financial information, no usage statistics, no crash reports,
+no device or advertising identifiers.</p>
+</div>
+
+<p>There is no sign-up and no user account. The app contains no analytics framework, no
+advertising framework, and no third-party SDKs of any kind.</p>
+
+<h2>Where your data is stored</h2>
+
+<p>Everything you enter — accounts, balances, assets, transactions and history — is stored
+<strong>locally on your device</strong>, inside the app's private storage, protected by the
+device's own file encryption.</p>
+
+<p>If you turn on <strong>iCloud Sync</strong> in Settings, that same data is also stored in
+<strong>your own private iCloud database</strong> so it can appear on your other devices. It is
+held in your personal iCloud account under Apple's terms; the developer of WorthFlow has no
+access to it and cannot read it. Turning the setting off stops syncing.</p>
+
+<p>Backup files you create with the export feature are written wherever you choose to save
+them. They are plain files under your control, and the app does not upload them anywhere.</p>
+
+<h2>Network connections the app makes</h2>
+
+<p>The app talks to a small, fixed set of services, and only for the purposes below.
+None of them receive your balances, your holdings, or anything that identifies you.</p>
+
+<table>
+<tr><th>Service</th><th>Purpose</th><th>What is sent</th></tr>
+<tr>
+  <td><code>api.frankfurter.dev</code></td>
+  <td>Currency exchange rates</td>
+  <td>Currency codes only (e.g. <code>USD</code>, <code>EUR</code>)</td>
+</tr>
+<tr>
+  <td><code>api.coingecko.com</code></td>
+  <td>Cryptocurrency prices</td>
+  <td>Asset identifiers only (e.g. <code>bitcoin</code>)</td>
+</tr>
+<tr>
+  <td><code>api.monobank.ua</code></td>
+  <td>Optional bank connection</td>
+  <td>Your personal Monobank token, only if you add one</td>
+</tr>
+<tr>
+  <td><code>api.binance.com</code></td>
+  <td>Optional exchange connection</td>
+  <td>Your Binance API key signature, only if you add one</td>
+</tr>
+</table>
+
+<p>All requests use HTTPS. The rate services are contacted regardless of whether you connect a
+bank; the bank and exchange services are contacted only if you set up that connection yourself.</p>
+
+<h2>Bank and exchange connections</h2>
+
+<p>Connections are entirely optional — the app is fully functional without them, and you can
+enter balances by hand.</p>
+
+<ul>
+  <li>Connections are <strong>read-only</strong>. WorthFlow reads balances and transaction
+      history. It cannot move money and never initiates payments or trades.</li>
+  <li>You supply your own token or API key, issued by you in your bank or exchange account.
+      The app never asks for your banking password or login credentials.</li>
+  <li>Tokens and API secrets are stored in the <strong>iOS Keychain</strong> with the
+      <code>ThisDeviceOnly</code> protection level. They stay on the one device: they are not
+      synced to iCloud Keychain, are not included in device backups, and are never transmitted
+      anywhere except to the service they belong to.</li>
+  <li>Removing a connection in the app deletes its stored secret from the Keychain.</li>
+</ul>
+
+<h2>Face ID and Touch ID</h2>
+
+<p>If you enable the app lock, authentication is performed by iOS. WorthFlow is told only whether
+authentication succeeded. Your biometric data is never available to the app.</p>
+
+<h2>Sharing and selling</h2>
+
+<p>Your data is never sold, rented, shared, or used for advertising or profiling. There is no
+mechanism in the app by which this could happen.</p>
+
+<h2>Children</h2>
+
+<p>WorthFlow is a general-audience finance tool and is not directed at children. Since no data is
+collected, none is collected from children either.</p>
+
+<h2>Deleting your data</h2>
+
+<p>Deleting the app removes all of its local data from that device. If iCloud Sync was enabled,
+the synced copy can be removed in iOS Settings under your Apple Account → iCloud → Manage
+Account Storage. Backup files you exported yourself are deleted like any other file.</p>
+
+<h2>Changes to this policy</h2>
+
+<p>If this policy changes, the updated version will be posted on this page with a new date above.</p>
+
+<h2>Contact</h2>
+
+<p>Questions about privacy: <a href="mailto:aleksei_manzhos@icloud.com">aleksei_manzhos@icloud.com</a></p>
+
+<footer class="site">
+  WorthFlow is not a bank, a broker, or a source of investment advice.
+  Exchange rates and prices are shown for information only.
+</footer>
+
+</div>
+</body>
+</html>

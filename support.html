@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WorthFlow — Support</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+<header class="site">
+  <span class="mark" aria-hidden="true">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+      <path d="M2 14.5 L6.5 9 L10.5 11.5 L18 4" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" style="color: var(--accent)"/>
+    </svg>
+  </span>
+  <span class="name">WorthFlow</span>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="privacy.html">Privacy</a>
+  </nav>
+</header>
+
+<h1>Support</h1>
+<p class="lede">Questions, bug reports and feature requests are all welcome.</p>
+
+<div class="card">
+  <p><strong>Email:</strong> <a href="mailto:aleksei_manzhos@icloud.com">aleksei_manzhos@icloud.com</a></p>
+  <p>Replies usually come within a few days. Writing in English, Russian or Ukrainian is fine.</p>
+</div>
+
+<p>If you are reporting a problem, it helps to include your device model, iOS version, and the
+app version shown in Settings → About.</p>
+
+<h2>Common questions</h2>
+
+<h3>Do I have to connect a bank?</h3>
+<p>No. The app works fully without any connection — you can add accounts and update balances by
+hand, and import statement files. Connections just save you the typing.</p>
+
+<h3>Is a connection able to move my money?</h3>
+<p>No. Connections are read-only: WorthFlow reads balances and history and nothing else. It cannot
+make payments or trades, and it never asks for your banking password — only a token that you
+issue yourself and can revoke at any time in your bank or exchange account.</p>
+
+<h3>Where is my data kept?</h3>
+<p>On your device. If you turn on iCloud Sync, a copy also lives in your own private iCloud so your
+other devices see the same portfolio. Nothing is sent to the developer. See the
+<a href="privacy.html">privacy policy</a> for the details.</p>
+
+<h3>iCloud sync doesn't seem to start</h3>
+<p>Two things to check. First, you need to be signed in to iCloud in system Settings. Second, the
+setting takes effect <strong>after you restart the app</strong> — the sync container is set up once
+when the app launches. Settings → Sync shows the current status.</p>
+
+<h3>How do I move my data to a new phone?</h3>
+<p>Either enable iCloud Sync on both devices, or use Settings → Export to write a backup file and
+import it on the new device. Note that bank tokens are deliberately excluded from backups — you
+re-add the connection once on the new device.</p>
+
+<h3>Why do the totals differ slightly from my bank app?</h3>
+<p>Anything held in another currency is converted at the latest rate WorthFlow fetched, which will
+not match your bank's rate at the exact same second. Rates are informational.</p>
+
+<h3>How do I delete everything?</h3>
+<p>Delete the app. If iCloud Sync was on, remove the synced copy in iOS Settings → your Apple
+Account → iCloud → Manage Account Storage.</p>
+
+<footer class="site">
+  WorthFlow is not a bank, a broker, or a source of investment advice.
+  Exchange rates and prices are shown for information only.
+</footer>
+
+</div>
+</body>
+</html>
