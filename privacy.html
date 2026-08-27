@@ -25,7 +25,7 @@
 
 <h1>Privacy Policy</h1>
 <p class="lede">WorthFlow does not collect your data. There is no account, no analytics, and no tracking.</p>
-<p class="meta">Last updated: 26 August 2026</p>
+<p class="meta">Last updated: 27 August 2026</p>
 
 <p>WorthFlow is a personal capital tracker for iPhone, iPad and Mac. It records what you own and
 what it is worth over time. This policy explains exactly what the app does with that information.</p>
@@ -68,6 +68,11 @@ None of them receive your balances, your holdings, or anything that identifies y
   <td>Currency codes only (e.g. <code>USD</code>, <code>EUR</code>)</td>
 </tr>
 <tr>
+  <td><code>open.er-api.com</code></td>
+  <td>Exchange rates for currencies the European Central Bank does not publish</td>
+  <td>Currency codes only (e.g. <code>UAH</code>)</td>
+</tr>
+<tr>
   <td><code>api.coingecko.com</code></td>
   <td>Cryptocurrency prices</td>
   <td>Asset identifiers only (e.g. <code>bitcoin</code>)</td>
@@ -78,14 +83,24 @@ None of them receive your balances, your holdings, or anything that identifies y
   <td>Your personal Monobank token, only if you add one</td>
 </tr>
 <tr>
+  <td><code>acp.privatbank.ua</code></td>
+  <td>Optional bank connection</td>
+  <td>Your personal PrivatBank token, only if you add one</td>
+</tr>
+<tr>
   <td><code>api.binance.com</code></td>
   <td>Optional exchange connection</td>
   <td>Your Binance API key signature, only if you add one</td>
 </tr>
+<tr>
+  <td><code>tradernet.com</code></td>
+  <td>Optional broker connection (Freedom24)</td>
+  <td>Your Freedom24 public key and request signature, only if you add one</td>
+</tr>
 </table>
 
 <p>All requests use HTTPS. The rate services are contacted regardless of whether you connect a
-bank; the bank and exchange services are contacted only if you set up that connection yourself.</p>
+bank; the bank, exchange and broker services are contacted only if you set up that connection yourself.</p>
 
 <h2>Bank and exchange connections</h2>
 
